@@ -1,5 +1,5 @@
 import axios from "axios";
-const apiUrl = "http://nine024.onrender.com/";
+const apiUrl = "https://nine024.onrender.com/";
 
 export const getMovies = () => {
   try {

@@ -1,10 +1,8 @@
 import React, { useState } from "react";
 import { Button, Container, Form } from "react-bootstrap";
-import { Link } from "react-router-dom";
 
 export default function Search() {
   const [search, setSearch] = useState("");
-  const getMovies = () => {};
   return (
     <div className="p-5">
       <Container>
